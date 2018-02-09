@@ -1,3 +1,19 @@
+html{
+  font-family: Merienda;
+  background-color: #63646d;
+  background-image: url(../images/nature3.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body{
+  width: 600px;
+  margin: 40px auto;
+  background-color: rgba( 255, 228, 225,0.5);
+  padding: 0 20px 20px 20px;
+  /* border: 3px solid black; */
+}
+
 h1{
   font-family: Calligraffitti;
   width: 500px;
@@ -7,6 +23,13 @@ h1{
   text-shadow: 3px 3px 1px pink;
   font-size: 70px;
   text-decoration: underline;
+}
+
+h2{
+  font-family: Merienda;
+  color: #ff00e7;
+  font-size: 20px;
+text-decoration: line-through;
 }
 
 p,li{
@@ -19,26 +42,19 @@ p,li{
 img{
 display: block;
 margin: 0 auto;
-border-style: solid;
+/* border-style: solid; */
 border-radius: 10%;
 }
 
-h2{
-  font-family: Merienda;
-  color: #0000ff;
-  font-size: 20px;
-text-decoration: line-through;
+#button{
+background-color: rgba(186,  85, 211, 0.5);
+width: 80px;
+padding: 20px;
+margin: 0 auto;
+border-radius: 15%;
 }
 
-html{
-  font-family: Merienda;
-  background-color: #992E8C;
-}
-
-body{
-  width: 600px;
-  margin: 0 auto;
-  background-color: #ff5588;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+#button:hover{
+  background-color: rgba(128,0,32,0.5);
+  cursor: pointer;
 }
